@@ -1,0 +1,29 @@
+﻿Build started 2014-05-01 11:42:04.
+     1>Project "C:\Users\dvcask2\Documents\classes\cs215\local_source\CS215\dvcask2\pa4\pa4\pa4.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\pa4.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\pa4.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt board.cpp pa4.cpp position.cpp positionlist.cpp
+         positionlist.cpp
+         position.cpp
+         pa4.cpp
+     1>c:\users\dvcask2\documents\classes\cs215\local_source\cs215\dvcask2\pa4\pa4\pa4.cpp(256): warning C4244: '=' : conversion from 'time_t' to 'int', possible loss of data
+         board.cpp
+     1>c:\users\dvcask2\documents\classes\cs215\local_source\cs215\dvcask2\pa4\pa4\board.cpp(28): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dvcask2\Documents\classes\cs215\local_source\CS215\dvcask2\pa4\Debug\pa4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\dvcask2\Documents\classes\cs215\local_source\CS215\dvcask2\pa4\Debug\pa4.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dvcask2\Documents\classes\cs215\local_source\CS215\dvcask2\pa4\Debug\pa4.lib" /MACHINE:X86 Debug\board.obj
+         Debug\pa4.obj
+         Debug\position.obj
+         Debug\positionlist.obj
+         pa4.vcxproj -> C:\Users\dvcask2\Documents\classes\cs215\local_source\CS215\dvcask2\pa4\Debug\pa4.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\pa4.unsuccessfulbuild".
+         Touching "Debug\pa4.lastbuildstate".
+     1>Done Building Project "C:\Users\dvcask2\Documents\classes\cs215\local_source\CS215\dvcask2\pa4\pa4\pa4.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.24
